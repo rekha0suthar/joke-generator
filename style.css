@@ -1,0 +1,49 @@
+body {
+  background-color: aqua;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.joke-container {
+  max-width: 1200px;
+  margin: 5% auto;
+  text-align: center;
+}
+
+button {
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+#joke {
+  font-size: 28px;
+  font-weight: bold;
+  margin: auto;
+  font-style: italic;
+  color: rgb(126, 54, 2);
+  max-height: max-content;
+  min-height: 200px;
+  align-content: center;
+  max-width: 60%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: darkolivegreen;
+  text-transform: uppercase;
+}
+
+#dummy-txt {
+  font-size: 20px;
+}
